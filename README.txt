@@ -16,3 +16,9 @@ ou push an existing repository from the command line
 git remote add origin https://github.com/devappsperso/biblio.git
   ## git branch -M main   ## git push -u origin main
 git push -u origin master
+
+Une fois c'est fait, si par exemple on modifie le fichier README.txt en local,
+on fait juste :
+git add README.txt
+git commit README.txt
+git push
